@@ -45,9 +45,9 @@ int main()
 {
 
 	S<int> i ={2021};
-	S<string> s {"Dandelion"};
+	S<string> s {"Valami"};
 	S<char> c {'c'};
-	S<double> d {21.76};
+	S<double> d {31.76};
 	S<vector<int>> v {vector<int>{1, 2, 3, 4, 5}};
 
 	cout << "INT: "<< i.get() << endl;
